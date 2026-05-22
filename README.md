@@ -98,9 +98,9 @@ JWT_REFRESH_TOKEN_LIFETIME_DAYS=7
 
 ```sql
 psql -U postgres
-CREATE DATABASE engineering_platform;
+CREATE DATABASE esug_platform;
 CREATE USER enguser WITH PASSWORD 'yourpassword';
-GRANT ALL PRIVILEGES ON DATABASE engineering_platform TO enguser;
+GRANT ALL PRIVILEGES ON DATABASE esug_platform TO enguser;
 \q
 ```
 
