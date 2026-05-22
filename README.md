@@ -79,7 +79,7 @@ Copy the example below into a `.env` file at the project root. **Never commit th
 
 ```env
 SECRET_KEY=your-very-long-random-secret-key-here
-DEBUG=True
+DEBUG=False
 ALLOWED_HOSTS=localhost,127.0.0.1
 
 DB_NAME=engineering_platform
